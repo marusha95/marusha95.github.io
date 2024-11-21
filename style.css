@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  background-color: red;
+  color: black;
+  width: 600px;
+  padding: 10px;
+  border: 3px solid red;
+}
+
+p {
+  width: 600px;
+  background-color: yellowgreen;
+  padding: 10px;
+  border: 3px solid;
+  border-color: rgb(255, 0, 0);
+}
+
+img {
+  width: 600px;
+  display: block;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  background-color: red;
+  padding: 10px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+/* Eine ID in HTML wird zu einem Hashtag (#) */
+#zweite {
+  background-color: bisque;
+}
+
+/* Eine Klasse in HTML wird zu einem Punkt (.) */
+.green {
+  background-color: blueviolet;
+}
